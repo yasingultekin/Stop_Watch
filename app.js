@@ -18,4 +18,23 @@ playBtn.addEventListener("click", () => {
 
 const stopwatch = () => {
   miliSecond.innerText++;
+  if (miliSecond.innerText == 100) {
+    miliSecond.innerText = "0";
+    second.innerText++;
+  }
+  if (miliSecond.innerText < 10) {
+    miliSecond.innerText = "0" + miliSecond.innerText++;
+  }
+
+  if (second.innerText == 60) {
+    second.innerText = "0";
+    minute.innerText++;
+  }
+  if (second.innerText < 10) {
+    second.innerText = "0" + second.innerText++;
+
+    if (minute.innerText < 10) {
+      minute.innerText = "0" + minute.innerText++;
+    }
+  }
 };
