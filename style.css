@@ -28,14 +28,24 @@ body {
     color: wheat;
 }
 
+h1 {
+    font-size: 4rem;
+}
+
+p {
+    margin: 2.5rem;
+    font-size: 3.5rem;
+    color: whitesmoke;
+}
+
 .btn {
-    margin: .6rem;
-    width: 7rem;
-    height: 4rem;
-    border-radius: 2rem;
-    border: none;
     font-size: 2rem;
+    height: 3rem;
+    width: 8rem;
     cursor: pointer;
+    border: none;
+    color: black;
+    
 }
 
 .play {
