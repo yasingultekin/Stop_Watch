@@ -16,6 +16,14 @@ playBtn.addEventListener("click", () => {
   }
 });
 
+resetBtn.addEventListener("click", () => {
+  clearInterval(interval);
+  minute.innerText = "00";
+  second.innerText = "00";
+  miliSecond.innerText = "00";
+  playBtn.innerText = "Play";
+});
+
 const stopwatch = () => {
   miliSecond.innerText++;
   if (miliSecond.innerText == 100) {
