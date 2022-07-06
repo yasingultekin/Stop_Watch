@@ -13,3 +13,4 @@ What I used?
 - clearInterval
 
 [Click Here for Preview!](https://yasingultekin.github.io/Stop_Watch/)
+![](intro.gif)
