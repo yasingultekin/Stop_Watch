@@ -110,5 +110,6 @@ p {
 
 .reset:hover {
     background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
     
 }
