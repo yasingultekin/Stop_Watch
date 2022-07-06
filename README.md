@@ -1,6 +1,6 @@
 # Stop_Watch
 
-Hello to everyone! 
+Hi everyone! 
 
 I am adding a different sample project to this repository to improve my JavaScript knowledge.
 
